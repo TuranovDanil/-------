@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS (Cloudflare CDN) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap.min.css"
+        integrity="sha512-T584yQ/tdRR5QwOpfvDfVQUidzfgc2339Lc8uBDtcp/wYu80d7jwBgAxbyMh0a9YM9F8N3tdErpFI8iaGx6x5g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- jQuery (Cloudflare CDN) -->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Bootstrap Bundle JS (Cloudflare CDN) -->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/js/bootstrap.min.js"
+        integrity="sha512-UR25UO94eTnCVwjbXozyeVd6ZqpaAE9naiEUBK/A+QDbfSTQFhPGj5lOR6d8tsgbBk84Ggb5A3EkjsOgPRPcKA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Создание заявки</title>
+</head>
+
+<body>
+
+    <div class="container-md wraper">
+        <div class="header d-flex  p-3 px-md-4 mb-3  bg-white border-bottom box-shadow">
+            <a class="p-2 text-muted mr-auto" href="#">
+                <h6>Главная</h6>
+            </a>
+            <a class="p-2 text-dark" href="#">Мои заявки</a>
+            <a class="p-2 text-dark" href="#">Создать заявку</a>
+            <a class="p-2 text-dark" href="#">Выйти из <strong></strong></a>
+            <a class="p-2 text-dark" href="#">Регистрация</a>
+            <a class="p-2 text-dark" href="#">Вход</a>
+        </div>
+        <div class="row main">
+            <div class="container">
+                <h5 class="p-3 mb-1 font-weight-normal bg-dark text-white text-center">Регистрация</h5>
+                <div class="mb-3">
+                    <label for="InputSurname" class="form-label">Фамилия</label>
+                    <input type="text" class="form-control" placeholder="Введите фамилию" id="InputSurname" value="">
+                </div>
+                <div class="mb-3">
+                    <label for="InputDescription" class="form-label">Имя</label>
+                    <input type="text" class="form-control" placeholder="Введите имя" id="InputDescription">
+                </div>
+                <div class="mb-3">
+                    <label for="InputPatronymic" class="form-label">Отчество</label>
+                    <input type="text" class="form-control" placeholder="Введите отчество" id="InputPatronymic">
+                </div>
+                <div class="mb-3">
+                    <label for="InputUsername" class="form-label">Логин</label>
+                    <input type="text" class="form-control" placeholder="Введите логин" id="InputUsername">
+                </div>
+                <div class="mb-3">
+                    <label for="InputEmail" class="form-label">Почта</label>
+                    <input type="text" class="form-control" placeholder="Введите почту" id="InputEmail">
+                </div>
+                <div class="mb-3">
+                    <label for="InputPassword" class="form-label">Пароль</label>
+                    <input type="text" class="form-control" placeholder="Введите пароль" id="InputPassword">
+                </div>
+                <div class="mb-3">
+                    <label for="InputPassword2" class="form-label">Пароль (повторно)</label>
+                    <input type="text" class="form-control" placeholder="Введите пароль (повторно)" id="InputPassword2">
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="FieldsetCheck">
+                    <label class="form-check-label" for="FieldsetCheck" >
+                        Согласие на обработку данных
+                    </label>
+                </div>
+                <button class="btn btn-dark mt-4 mb-2" type="submit">Зарегистрироваться</button>
+            </div>
+        </div>
+
+        <div class="footer border-top text-dark bg-light">
+            <p class="p-3 mb-2">созданно при поддержке <b>Грушевсковго Ю.В.</b></p>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
